@@ -1,0 +1,167 @@
+body, #navbarBasicExample{
+  background: #3C2D2B;
+}
+html{
+  scroll-behavior: smooth;
+}
+.nav{
+  display: flex;
+}
+.navbar-item{
+  color: #fff;
+  transition: all 0.5s ease;
+  background: none;
+  margin: 5px 15px;
+}
+.navbar-menu .navbar-item:hover{
+  color:#98CBF5;
+  background: none;
+}
+.button{
+  background: #98CBF5;
+  color: #fff;
+  border: 1px solid #98CBF5;
+  transition: all 0.5s ease;
+  font-weight: 700;
+}
+.button:hover{
+  background: none;
+  color: #98CBF5;
+  border: 1px solid #98CBF5;
+}
+.second{
+  height: 100%;
+  transition: all 0.5s ease;
+}
+.circle{
+  width: 60px;
+  height: 60px;
+  background-color:#2F80ED;
+  color: #fff;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-right: 15px;
+  transition: all 0.5s ease-in;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.st{
+  font-size: 200px;
+  color: #A4A4A480;
+  margin-bottom: -150px;
+  font-weight: 800;
+}
+.rectangle{
+  width: 70px;
+  height: 70px;
+  background: #FFD600;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 5%;
+  z-index:0;
+}
+.third,
+.fourth{
+  height: 100%;
+}
+.some{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background:red;
+  border-bottom-right-radius: 100%;
+  margin-left:40%;
+}
+.fourth  #box{
+  width: 300px;
+}
+
+.fifth .box{
+  width: 70%;
+}
+.fifth #hover:hover{
+  background: none;
+  color: #2F80ED;
+}
+#mt{
+  margin-top: -50px;
+}
+.block{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1024px){
+  .nav{
+    display: block;
+  }
+  .nav .navbar-menu .navbar-item{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-left: 30%;
+    margin-bottom: 20px;
+  }
+  .button{
+    width: 100%;
+  }
+  .end .columns .column #mt{
+    margin-top: -40px;
+  }
+}
+
+@media(max-width:900px){
+  .second{
+    height: 100%;
+  }
+  .second .flex .column h4{
+    font-size: 30px;
+  }
+}
+
+@media(max-width:768px){
+  .fourth  #box,
+  .fifth  .box
+  {
+    width: 100%;
+    margin: 3px;
+  }
+  #none{
+    display: none;
+  }
+}
+
+@media(max-width:500px){
+
+  .circle{
+    width: 50px;
+    height: 50px;
+  }
+  .second #size h1,
+  .third #size h1
+  {
+    font-size: 30px;
+  }
+  .fifth .box .flex .circle{
+    width: 20px;
+    height: 20px;
+  }
+  .block{
+    display: block;
+  }
+  
+}
