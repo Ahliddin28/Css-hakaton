@@ -1,5 +1,6 @@
 body, #navbarBasicExample{
   background: #3C2D2B;
+  overflow:hidden
 }
 html{
   scroll-behavior: smooth;
